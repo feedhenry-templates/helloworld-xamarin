@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>host</key>
+	<string>https://redhat-demos-t.sandbox.feedhenry.com</string>
+	<key>appid</key>
+	<string>jrppdzi34xehzxvvjb7gxg2l</string>
+	<key>projectid</key>
+	<string>jrppdzldvwwbxyoqy7cdtbwp</string>
+	<key>appkey</key>
+	<string>9d41f545df6bbc77df2dd034756718f0a7553319</string>
+	<key>connectiontag</key>
+	<string>0.0.1</string>
+</dict>
+</plist>

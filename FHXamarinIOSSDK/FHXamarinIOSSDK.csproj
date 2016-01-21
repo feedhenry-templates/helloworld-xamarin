@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectTypeGuids>{FEACFBD2-3405-455C-9665-78FE426C6842};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <ProjectGuid>{C7037BA8-4398-4BA0-82E4-62292C488EBB}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>FHXamarinIOSSDK</RootNamespace>
+    <IPhoneResourcePrefix>Resources</IPhoneResourcePrefix>
+    <AssemblyName>FHXamarinIOSSDK</AssemblyName>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug</OutputPath>
+    <DefineConstants>DEBUG;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>full</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="Xamarin.iOS" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Resources\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="..\..\fh-dotnet-sdk\xamarin\FHXamarinIOSSDK\Services\Auth\FHOAuthViewController.cs">
+      <Link>Services\Auth\FHOAuthViewController.cs</Link>
+    </Compile>
+    <Compile Include="..\..\fh-dotnet-sdk\xamarin\FHXamarinIOSSDK\Services\Auth\OAuthClientHandlerService.cs">
+      <Link>Services\Auth\OAuthClientHandlerService.cs</Link>
+    </Compile>
+    <Compile Include="..\..\fh-dotnet-sdk\xamarin\FHXamarinIOSSDK\Services\Data\DataService.cs">
+      <Link>Services\Data\DataService.cs</Link>
+    </Compile>
+    <Compile Include="..\..\fh-dotnet-sdk\xamarin\FHXamarinIOSSDK\Services\Data\IOService.cs">
+      <Link>Services\Data\IOService.cs</Link>
+    </Compile>
+    <Compile Include="..\..\fh-dotnet-sdk\xamarin\FHXamarinIOSSDK\Services\Device\DeviceService.cs">
+      <Link>Services\Device\DeviceService.cs</Link>
+    </Compile>
+    <Compile Include="..\..\fh-dotnet-sdk\xamarin\FHXamarinIOSSDK\Services\Hash\HashService.cs">
+      <Link>Services\Hash\HashService.cs</Link>
+    </Compile>
+    <Compile Include="..\..\fh-dotnet-sdk\xamarin\FHXamarinIOSSDK\Services\Log\LogService.cs">
+      <Link>Services\Log\LogService.cs</Link>
+    </Compile>
+    <Compile Include="..\..\fh-dotnet-sdk\xamarin\FHXamarinIOSSDK\Services\Monitor\MonitorService.cs">
+      <Link>Services\Monitor\MonitorService.cs</Link>
+    </Compile>
+    <Compile Include="..\..\fh-dotnet-sdk\xamarin\FHXamarinIOSSDK\Services\Network\NetworkService.cs">
+      <Link>Services\Network\NetworkService.cs</Link>
+    </Compile>
+    <Compile Include="..\..\fh-dotnet-sdk\xamarin\FHXamarinIOSSDK\Services\Network\Reachability.cs">
+      <Link>Services\Network\Reachability.cs</Link>
+    </Compile>
+    <Compile Include="..\..\fh-dotnet-sdk\xamarin\FHXamarinIOSSDK\FHClient.cs">
+      <Link>FHClient.cs</Link>
+    </Compile>
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
+  <ItemGroup>
+    <ProjectReference Include="..\..\fh-dotnet-sdk\FHSDK\FHSDK.csproj">
+      <Project>{AD87DBE9-8247-47CD-B6D2-16B63CBBC9E7}</Project>
+      <Name>FHSDK</Name>
+    </ProjectReference>
+  </ItemGroup>
+</Project>
