@@ -74,10 +74,4 @@
     </Compile>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
-  <ItemGroup>
-    <ProjectReference Include="..\..\fh-dotnet-sdk\FHSDK\FHSDK.csproj">
-      <Project>{AD87DBE9-8247-47CD-B6D2-16B63CBBC9E7}</Project>
-      <Name>FHSDK</Name>
-    </ProjectReference>
-  </ItemGroup>
 </Project>

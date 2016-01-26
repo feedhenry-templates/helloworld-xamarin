@@ -71,7 +71,7 @@ namespace helloworld_xamarin
 			public const int result = 2131034115;
 			
 			// aapt resource value: 0x7f050000
-			public const int textView1 = 2131034112;
+			public const int textView = 2131034112;
 			
 			static Id()
 			{
