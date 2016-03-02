@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
 VisualStudioVersion = 14.0.24720.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "helloworld-android", "helloworld-xamarin\helloworld-android.csproj", "{C9D3A5EF-FC83-4051-889E-D948C1F26974}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "helloworld-android", "helloworld-android\helloworld-android.csproj", "{C9D3A5EF-FC83-4051-889E-D948C1F26974}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "helloworld-ios", "helloworld-ios\helloworld-ios.csproj", "{FEA933A8-25B0-4974-A93F-ADD995CB4BE5}"
 EndProject
