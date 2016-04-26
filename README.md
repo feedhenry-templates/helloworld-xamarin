@@ -41,7 +41,7 @@ If you wish to contribute to this template, the following information may be hel
 
 When the view has loaded the FH.init call is done:
 ```csharp
-    await FHClient.Init();
+  await FHClient.Init();
 ```
 That initialize the cloud connection.
 
@@ -49,11 +49,11 @@ That initialize the cloud connection.
 
 In ```iOS-Template-App/HomeViewController.m``` the FH.init call is done:
 ```csharp
-    var response = await FH.Cloud ("hello", "GET", null, new Dictionary<string, string> () { { "hello", name.Text } });
-    if (response.Error == null) {
-        // cloudCall - success
-        Console.WriteLine(response.GetResponseAsDictionary () ["msg"]);
-    } else {
-        //cloudCall - fail
-    }
+ var response = await FH.Cloud ("hello", "GET", null, new Dictionary<string, string> () { { "hello", name.Text } });
+ if (response.Error == null) {
+  // cloudCall - success
+  Console.WriteLine(response.GetResponseAsDictionary () ["msg"]);
+ } else {
+  //cloudCall - fail
+ }
 ```
