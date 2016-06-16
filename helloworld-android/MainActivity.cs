@@ -4,7 +4,6 @@ using Android.Widget;
 using Android.OS;
 using Android.Util;
 using FHSDK;
-using FHSDK.Droid;
 
 namespace helloworld_xamarin
 {
