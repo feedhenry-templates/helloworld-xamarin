@@ -1,6 +1,6 @@
 # helloworld-xamarin
 
-[![AppVeyor](https://img.shields.io/appveyor/ci/feedhenry-templates/helloworld-xamarin/master.svg)](https://ci.appveyor.com/project/feedhenry/helloworld-xamarin/) 
+[![AppVeyor](https://img.shields.io/appveyor/ci/feedhenry/helloworld-xamarin/master.svg)](https://ci.appveyor.com/project/feedhenry/helloworld-xamarin/) 
 
 Author: Erik Jan de Wit   
 Level: Intermediate  
